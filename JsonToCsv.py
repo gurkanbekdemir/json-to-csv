@@ -20,7 +20,6 @@ class JsonParse():
   def row_parsing(self,data):
     rows = []
     for pfx, event, value in ijson.parse(data):
-
       if "start_map" == event or "end_map" == event or pfx == "":
         pass
       else:
