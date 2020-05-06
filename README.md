@@ -3,9 +3,16 @@
    "item_2":"value_12",
    "item_3":"value_13",
    "item_4":["sub_value_14", "sub_value_15"],   "item_5":{       "sub_item_1":"sub_item_value_11","sub_item_2":["sub_item_value_12", "sub_item_value_13"]} }
+   
+<br>
 
-output ['value_11', 'value_12', 'value_13', None, 'sub_value_14', 'sub_value_15', None, 'sub_item_1', 'sub_item_value_11', 'sub_item_2', None, 'sub_item_value_12', 'sub_item_value_13', None]
+header output - ['item_1', 'item_2', 'item_3', 'item_4', 'item_4.item', 'item_4.item', 'item_4', 'item_5', 'item_5.sub_item_1', 'item_5', 'item_5.sub_item_2', 'item_5.sub_item_2.item', 'item_5.sub_item_2.item', 'item_5.sub_item_2']
 
+<br>
+
+row output - ['value_11', 'value_12', 'value_13', None, 'sub_value_14', 'sub_value_15', None, 'sub_item_1', 'sub_item_value_11', 'sub_item_2', None, 'sub_item_value_12', 'sub_item_value_13', None]
+
+<br>
 <br>
 
 ```python
