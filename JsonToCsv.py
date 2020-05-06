@@ -2,10 +2,10 @@ import ijson,json
 from ijson import parse
 
 class JsonParse():
-  def __init__(self,JsonData,type):
-    if type == "header":
+  def __init__(self,JsonData,Type):
+    if Type == "header":
       self.headers =self.header(JsonData)
-    elif type == "rows":
+    elif Type == "rows":
       self.rows =self.row_parsing(JsonData)
 
   def header(self,data):
